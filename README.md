@@ -1,8 +1,12 @@
 # audiofx
 
-Complete physical configuration:
 
-<img width="571" height="514" alt="pi" src="https://github.com/user-attachments/assets/250e7cfb-406b-4316-9814-7ef913fb5a50" />
+<p align="center">
+  <img width="571" height="514" alt="pi" src="https://github.com/user-attachments/assets/250e7cfb-406b-4316-9814-7ef913fb5a50" />
+  <br />
+  <em>Complete physical configuration</em>
+</p>
+
 
 *AudioFx* is a real-time, programmable audio effects processor written in C that runs locally on a Raspberry Pi, and interacts directly with the Linux ALSA subsystem. Audio is captured from a microphone, processed through a chain of effects, and dispatched to a playback device with low latency (approx. < 25ms). Five rotary encoders substitute as control dials, and an SSD1306 OLED displays the current intensity and mute state of each effect.
 
